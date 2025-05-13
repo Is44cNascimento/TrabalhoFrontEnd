@@ -1,0 +1,137 @@
+
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #444;
+    border-radius: 0;
+    overflow: hidden;
+    display: flex;
+    box-shadow: none;
+    width: 100vw;
+    height: 100vh;
+}
+
+.barra-lateral {
+    background: rgba(85, 85, 85, 0.8); 
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 220px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1); 
+}
+
+.container-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-right: 10px;
+}
+
+.botao-jogos {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 180px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.botao-jogos:hover {
+    background-color: #c0392b;
+    background: rgba(85, 85, 85, 0.6); 
+}
+
+.conteudo-principal {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding-inline-start: 50px;
+    background-color: #333;
+}
+
+.conteudo-principal h1 {
+    padding-left: 40%;
+    text-size: 1000px;
+    
+}
+
+
+
+.titulo-perfil {
+    font-size: 2em;
+    margin-bottom: 40px;
+    padding-left: 40px;
+}
+
+.container-detalhes {
+    display: flex;
+    gap: 300px;
+    align-items: flex-start;
+    width: 100%;
+}
+
+
+
+.foto-perfil {
+    background-color: #e74c3c;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    font-size: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 4); 
+}
+
+.foto-perfil img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.bloco-info {
+    flex-grow: 1;
+}
+
+.cartao-info {
+    background: rgba(240, 240, 240, 1); 
+    color: #333;
+    border-radius: 8px;
+    min-height: 200px;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+}

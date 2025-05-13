@@ -16,6 +16,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+
+    border-radius: 30px;
 }
 
 .container {
@@ -26,6 +28,8 @@ body {
     box-shadow: none;
     width: 100vw;
     height: 100vh;
+    
+
 }
 
 .barra-lateral {
@@ -65,7 +69,7 @@ body {
 
 .botao-jogos:hover {
     background-color: #c0392b;
-    background: rgba(85, 85, 85, 0.6); 
+    background: rgba(29, 233, 2, 0.6); 
 }
 
 .conteudo-principal {
@@ -130,8 +134,19 @@ body {
     border-radius: 8px;
     min-height: 200px;
     width: 400px;
-    height: 400px;
-    padding: 20px;
+    height: 450px;
+    padding: 10px;
     backdrop-filter: blur(20px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+}
+
+.cartao-info h2 {
+    margin-bottom: 0px;
+}
+.cartao-info p {
+    margin-bottom:  0px;
+    font-size: 1.2em;
+}
+.cartao-info span {
+    font-weight: bold;
 }

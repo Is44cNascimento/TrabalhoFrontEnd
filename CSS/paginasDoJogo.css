@@ -142,10 +142,12 @@ body {
 
 .cartao-info h2 {
     margin-bottom: 0px;
+    text-align: justify;
 }
 .cartao-info p {
     margin-bottom:  0px;
     font-size: 1.2em;
+    text-align: justify;
 }
 .cartao-info span {
     font-weight: bold;

@@ -70,12 +70,12 @@ body {
     flex-grow: 1;
     justify-content: initial;
     border-radius: 30%;
-    gap: 100px;
+    gap: 10px;
 }
 
 .Participante {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     margin-top: 20px;
 }
 
@@ -87,20 +87,24 @@ body {
 
 .fotoDoParticipante {
     background-color: #e74c3c;
-    width: 200px;
-    height: 200px;
-    border-radius: 5px;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
     
 }
 
 .fotoDoParticipante img{
-    width: 200px;
-    height: 200px;
-    border-radius: 5px;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 4); 
 }
 
 .nomeDoParticipante {
     margin-top: 5px;
     color: #ddd;
+    font-size: 1.5em;
+    font-weight: bold;
+
+
 }

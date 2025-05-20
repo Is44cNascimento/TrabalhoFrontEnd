@@ -35,13 +35,13 @@ body {
 
 .barra-lateral {
     background: rgba(85, 85, 85, 0.8); 
-    padding: 20px 10px;
+    padding: 20vh 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
     width: 220px;
-    gap: 30px;
+    
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 1); 
 }
